@@ -1,6 +1,6 @@
 # Desafio Dev. Junior
 
-Este repositório contém as soluções para a avaliação técnica do cargo de SW Junior. As soluções abordam três tarefas distintas.
+Este repositório contém as soluções para a avaliação técnica do cargo de Desenvolvedor SW Junior. As soluções abordam três tarefas distintas.
 
 ## Tarefa 1
 
