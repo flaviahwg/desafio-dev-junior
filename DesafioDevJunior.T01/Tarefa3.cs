@@ -12,34 +12,14 @@ namespace DesafioDevJunior
             Pesquisador pesquisador = new();
             int[] indices = pesquisador.PesquisarIndexSomaDe2Elementos(nums, somaAlvo);
 
-            if  (indices[0] != -1)
+            if (indices[0] != -1)
             {
                 return $"Soma da entrada: {somaAlvo} \n" +
-                    $"Entrada: {Print(nums)} \n" +
                     $"{somaAlvo} é a soma de {nums[indices[0]]} + {nums[indices[1]]} \n" +
                     $"{nums[indices[0]]} (Index {indices[0]}) e {nums[indices[1]]} (Index {indices[1]}) foram encontrados na array de entrada";
             }
 
             return "Não foram encontrados resultados para a soma de entrada (alvo)";
         }
-
-        public static string Print(int[] array)
-        {
-            StringBuilder sb = new();
-            sb.Append('[');
-
-            for (int i = 0; i < array.Length; i++)
-            {
-                sb.Append(array[i]);
-                if (i < array.Length - 1)
-                {
-                    sb.Append(", ");
-                }
-            }
-
-            sb.Append(']');
-            return sb.ToString();
-        }
-
     }
 }
